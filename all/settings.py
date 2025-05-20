@@ -103,6 +103,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://ehis-cargoshipment.onrender.com',
+    'https://cargoeshipment.com/'
+   
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
